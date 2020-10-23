@@ -295,7 +295,7 @@ while True: # the main game loop
                             b_on = True
 
                     
-                if event.key == pygame.K_RIGHT:
+                if event.key == pygame.K_d:
                     catx += 100
                     catright = True  
                     if cloner == True:
@@ -305,7 +305,7 @@ while True: # the main game loop
                         catcloneImglfront = pygame.image.load('catrightfront.png')
                         catcloneImglback = pygame.image.load('catrightback.png')
 
-                if event.key == pygame.K_LEFT:
+                if event.key == pygame.K_a:
                     catx -= 100
                     catright = False
                     catImg = pygame.image.load('catleft.png')
