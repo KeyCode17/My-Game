@@ -115,7 +115,7 @@ def tryagain():
     control_img = font_digital.render(control_txt, True, BLUE)
     DISPLAYSURF.blit(control_img, (150, 300))
 
-    powerup_txt1 = "[Power Up cost 1 life per use]"
+    powerup_txt1 = '[Power Up Cost "1" life Every Used]'
     powerup_img1 = font_digital.render(powerup_txt1, True, BLUE)
     DISPLAYSURF.blit(powerup_img1, (150, 330))
     powerup_txt2 = "Q= Clone left, E= Clone Right"
